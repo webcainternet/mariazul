@@ -5,6 +5,15 @@
 <div class="clear"></div>
 </section>
 <footer>
+
+	<div class="container">
+		<div class="row" style="margin-bottom: 30px; margin-top: -20px;">
+			<div class="fb-like-box" data-href="https://www.facebook.com/mariazulmodas" data-width="1200" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+		</div>
+	</div>
+
+
+
 	<div class="container">
 		<div class="row">
 			<?php if ($informations) { ?>
@@ -69,9 +78,15 @@
 	
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-12" style="width: 49%;">
 				<div id="powered">
 					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
+				</div>
+			</div>
+
+			<div class="col-sm-12" style="width: 49%; text-align: right;">
+				<div id="powered">
+					<div style="margin-top: -5px;"><img src="/image/data/footer-bandeiras.png" height="30"></div>
 				</div>
 			</div>
 		</div>
