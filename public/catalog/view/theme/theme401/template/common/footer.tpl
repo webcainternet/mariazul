@@ -8,7 +8,7 @@
 
 	<div class="container">
 		<div class="row" style="margin-bottom: 30px; margin-top: -20px;">
-			<div class="fb-like-box" data-href="https://www.facebook.com/mariazulmodas" data-width="1200" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+			<div class="fb-like" data-href="https://www.facebook.com/mariazulmodas" data-width="1200" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="dark"></div>
 		</div>
 	</div>
 
@@ -78,13 +78,14 @@
 	
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12" style="width: 49%;">
+			<div class="col-sm-12" style="width: 69%;">
 				<div id="powered">
+					Rua Médico Arlindo Leite, 41 apto 102, Bairro: Janga, Paulista/PE, CEP: 53439-430 - 
 					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 				</div>
 			</div>
 
-			<div class="col-sm-12" style="width: 49%; text-align: right;">
+			<div class="col-sm-12" style="width: 29%; text-align: right;">
 				<div id="powered">
 					<div style="margin-top: -5px;"><img src="/image/data/footer-bandeiras.png" height="30"></div>
 				</div>
