@@ -140,7 +140,7 @@
 					</div>
 					<div class="cart-button">
 						<div class="cart">
-							<a title="<?php echo $button_cart; ?>" data-id="<?php echo $product['product_id']; ?>;" class="button addToCart">
+							<a href="<?php echo $product['href']; ?>" title="<?php echo $button_cart; ?>" data-id="<?php echo $product['product_id']; ?>;" class="button NoaddToCart">
 								<span><?php echo $button_cart; ?></span>
 							</a>
 						</div>
