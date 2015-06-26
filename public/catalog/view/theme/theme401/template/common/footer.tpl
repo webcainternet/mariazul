@@ -80,7 +80,7 @@
 		<div class="row">
 			<div class="col-sm-12" style="width: 69%;">
 				<div id="powered">
-					Rua Médico Arlindo Leite, 41 apto 102, Bairro: Janga, Paulista/PE, CEP: 53439-430 - 
+					Rua Médico Arlindo Leite, 41, Bairro: Janga, Paulista/PE, CEP: 53439-430 - 
 					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 				</div>
 			</div>
