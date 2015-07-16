@@ -2194,6 +2194,7 @@ h1.style-1 {
 	text-transform:none;
 	font-weight:normal;
 	margin-left:10px;
+	display: none !important;
 	}
 .product-info .price .discount{
 	text-transform:none;
