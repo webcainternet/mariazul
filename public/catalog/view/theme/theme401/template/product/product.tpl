@@ -526,6 +526,8 @@ $('#button-cart').bind('click', function() {
 				$('#cart-total2').html(json['total']);
 				$('#cart').load('index.php?route=module/cart #cart > *');
 				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+
+				window.location = "index.php?route=checkout/cart";
 			}	
 			setTimeout(function() {$('.success').fadeOut(1000)},3000)
 		}
