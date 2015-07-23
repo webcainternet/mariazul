@@ -27,6 +27,7 @@
 	        <tr>
 	          <td><span class="required">*</span> <?php echo $entry_zone; ?></td>
 	          <td><select name="zone_id">
+	          	<option value="999999" selected="selected">-</option>
 	            </select></td>
 	        </tr>
 	    </div>
