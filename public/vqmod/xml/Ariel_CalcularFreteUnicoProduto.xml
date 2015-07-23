@@ -42,7 +42,7 @@
 <script type="text/javascript"><!--
 $('#button-quote').on('click', function() {
 
-	var data = 'product_id=<?php echo $product_id; ?>&quantity='+$('input[name="quantity"]').val()+'&country_id='+$('select[name="country_id"]').val()+'&zone_id='+$('select[name="zone_id"]').val()+'&postcode='+$('input[name="postcode"]').val()+'&'+$('input[name^="option\\["]').serialize();
+	var data = 'product_id=<?php echo $product_id; ?>&quantity='+$('input[name="quantity"]').val()+'&country_id='+$('select[name="country_id"]').val()+'&zone_id=464&postcode='+$('input[name="postcode"]').val()+'&'+$('input[name^="option\\["]').serialize();
 
 	$.ajax({
 		url: 'index.php?route=checkout/cart/quote',
