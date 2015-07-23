@@ -89,22 +89,20 @@ $('#button-quote').on('click', function() {
 				
 				for (i in json['shipping_method']) {
 					html += '<tr>';
-					html += '  <td colspan="3"><b>' + json['shipping_method'][i]['title'] + '</b></td>';
+					html += '  <td colspan="2"><b>' + json['shipping_method'][i]['title'] + '</b></td>';
 					html += '</tr>';
 				
 					if (!json['shipping_method'][i]['error']) {
 						for (j in json['shipping_method'][i]['quote']) {
 							html += '<tr class="highlight">';
-							
-							html += '  <td width="33%">&nbsp;</td>';
 								
-							html += '  <td width="33%"><label for="' + json['shipping_method'][i]['quote'][j]['code'] + '">' + json['shipping_method'][i]['quote'][j]['title'] + '</label></td>';
-							html += '  <td width="33%" style="text-align: right;"><label for="' + json['shipping_method'][i]['quote'][j]['code'] + '">' + json['shipping_method'][i]['quote'][j]['text'] + '</label></td>';
+							html += '  <td><label for="' + json['shipping_method'][i]['quote'][j]['code'] + '">' + json['shipping_method'][i]['quote'][j]['title'] + '</label></td>';
+							html += '  <td style="text-align: right;"><label for="' + json['shipping_method'][i]['quote'][j]['code'] + '">' + json['shipping_method'][i]['quote'][j]['text'] + '</label></td>';
 							html += '</tr>';
 						}		
 					} else {
 						html += '<tr>';
-						html += '  <td colspan="3"><div class="error">' + json['shipping_method'][i]['error'] + '</div></td>';
+						html += '  <td colspan="2"><div class="error">' + json['shipping_method'][i]['error'] + '</div></td>';
 						html += '</tr>';						
 					}
 				}
