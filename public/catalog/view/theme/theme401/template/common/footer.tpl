@@ -57,6 +57,7 @@
 				<ul>
 					<li><a href="http://facebook.com"><i class="fa fa-facebook-square"></i><?php echo $text_fb; ?></a></li>
 					<li><a href="http://twitter.com"><i class="fa fa-twitter-square"></i><?php echo $text_twi; ?></a></li>
+					<li><a href="#"><i class="fa fa-instagram-square"></i>Instagram</a></li>
 					<li><a href="#"><i class="fa fa-rss-square"></i><?php echo $text_rss; ?></a></li>
 				</ul>
 			</div>
