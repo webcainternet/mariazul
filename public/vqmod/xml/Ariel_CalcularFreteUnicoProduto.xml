@@ -8,7 +8,7 @@
 		<operation>
 			<search position="after" offset="2"><![CDATA[<?php echo $text_minimum; ?>]]></search>
 			<add><![CDATA[<?php if($checar_envio_produto == '1'){ ?><!-- Início simular frete página produto VQmod Ariel Gonçalves -->
-      <div id="shipping" class="content" style="margin-bottom: 1px;">
+      <div id="shipping" class="content" style="margin-bottom: 15px;">
       <p><?php echo $text_shipping_detail; ?></p>
       <div style="display: none;">
 	        <tr>
