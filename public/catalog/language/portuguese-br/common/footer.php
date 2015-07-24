@@ -24,4 +24,5 @@ $_['text_support']   = 'Atendimento';
 $_['text_fb'] = 'Facebook';
 $_['text_twi'] = 'Twitter';
 $_['text_rss'] = 'Rss';
+$_['text_instagram'] = 'Instagram';
 ?>

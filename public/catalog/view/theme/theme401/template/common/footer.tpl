@@ -55,10 +55,9 @@
 			<div class="col-sm-2">
 				<h3><?php echo $text_follow; ?></h3>
 				<ul>
-					<li><a href="http://facebook.com"><i class="fa fa-facebook-square"></i><?php echo $text_fb; ?></a></li>
+					<li><a href="http://www.facebook.com/mariazulmodas"><i class="fa fa-facebook-square"></i><?php echo $text_fb; ?></a></li>
 					<li><a href="http://twitter.com"><i class="fa fa-twitter-square"></i><?php echo $text_twi; ?></a></li>
-					<li><a href="#"><i class="fa fa-instagram-square"></i>Instagram</a></li>
-					<li><a href="#"><i class="fa fa-rss-square"></i><?php echo $text_rss; ?></a></li>
+					<li><a href="http://instagram.com/mariazulmodas"><i class="fa fa-instagram-square"><img src="/image/data/instagram.png" width="16"></i>Instagram</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-2">
