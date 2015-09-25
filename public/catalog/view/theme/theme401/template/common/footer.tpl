@@ -56,7 +56,6 @@
 				<h3><?php echo $text_follow; ?></h3>
 				<ul>
 					<li><a href="http://www.facebook.com/mariazulmodas"><i class="fa fa-facebook-square"></i><?php echo $text_fb; ?></a></li>
-					<li><a href="http://twitter.com"><i class="fa fa-twitter-square"></i><?php echo $text_twi; ?></a></li>
 					<li><a href="http://instagram.com/mariazulmodas"><i class="fa fa-instagram-square"><img src="/image/data/instagram.png" width="16"></i>Instagram</a></li>
 				</ul>
 			</div>
