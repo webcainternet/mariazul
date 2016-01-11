@@ -23,7 +23,11 @@ ul.sf-menu > li > a {
 	display:inline-block;
 	z-index: 1;
 	position: relative;
+<<<<<<< Updated upstream
 	font-size:16px;
+=======
+	font-size:12px;
+>>>>>>> Stashed changes
 	color:#ffffff;
 	font-weight:bold;
 	text-decoration:none;
