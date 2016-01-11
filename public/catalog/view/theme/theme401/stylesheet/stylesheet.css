@@ -205,14 +205,14 @@ p {
 	margin-bottom: 20px;
 }
 a, a:visited, a:focus {
-	color: #323232;
+	color: #ddd;
 	cursor: pointer;
 	text-decoration:none;
 	outline:none
 }
 a:hover {
 	text-decoration:none;
-	color:#2581ba
+	color:#ccc
 }
 a img {
 	border: none;
