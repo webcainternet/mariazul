@@ -77,16 +77,19 @@
 	
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12" style="width: 69%;">
+			<div class="col-sm-12" style="width: 59%;">
 				<div id="powered">
 					CNPJ: 23.329.498/0001-36 - Rua Médico Arlindo Leite, 41, Bairro: Janga, Paulista/PE, CEP: 53439-430<p>
 					<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 				</div>
 			</div>
 
-			<div class="col-sm-12" style="width: 29%; text-align: right;">
+			<div class="col-sm-12" style="width: 39%; text-align: right;">
 				<div id="powered">
-					<div><img src="/image/data/footer-bandeiras.png" height="30"></div>
+					<div>
+						<img src="/image/comodo.png" height="30">
+						<img src="/image/data/footer-bandeiras.png" height="30">
+					</div>
 				</div>
 			</div>
 		</div>
